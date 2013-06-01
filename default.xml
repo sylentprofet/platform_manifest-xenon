@@ -39,6 +39,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/htc/m7" name="android_device_htc_m7" remote="th" revision="cm-10.1" />
   <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="th" revision="cm-10.1" />
+  <project path="device/htc/pyramid" name="BULLDOZ3/android_device_htc_pyramid" remote="general" revision="jb-mr1" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="th" revision="xenon" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/lge/mako" name="device_lge_mako" remote="th" revision="jb-mr1" />
