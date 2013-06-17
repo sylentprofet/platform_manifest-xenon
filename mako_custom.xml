@@ -3,7 +3,7 @@
 
   <remote  name="general"
            fetch="https://github.com" />
-  <remote  name="aosp"
+  <remote  name="sp"
            fetch="https://android.googlesource.com/" />
   <remote name="th"
            fetch="https://github.com/TeamHorizon/" />
