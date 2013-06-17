@@ -9,7 +9,7 @@ mkdir .repo/local_manifests
 
 repo init -u git://github.com/sylentprofet/platform_manifest-xenon.git -b jb-mr1
 
-curl -L -o .repo/local_manifests/mako_only.xml -O -L https://raw.github.com/sylentprofet/platform_manifest-xenon/mako-custom
+curl -L -o .repo/local_manifests/mako_only.xml -O -L https://raw.github.com/sylentprofet/platform_manifest-xenon/jb-mr1/mako_custom.xml
 
 repo sync -j2
 
