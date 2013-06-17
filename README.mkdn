@@ -1,10 +1,16 @@
-Team Horizon
+Team Horizon & sylentprofet
 ===========
+
+mkdir xenon
+cd xenon
+mkdir .repo/local_manifests
 
 repo init -u git://github.com/sylentprofet/platform_manifest-xenon.git -b jb-mr1
 
+curl -L -o .repo/local_manifests/mako_only.xml -O -L https://raw.github.com/sylentprofet/platform_manifest-xenon/mako-custom
+
 repo sync -j2
 
-. build/envsetup.sh && brunch device-name-here
+source build/envsetup.sh && brunch mako
 
 
