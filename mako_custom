@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+  <remote  name="general"
+           fetch="https://github.com" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+  <remote name="th"
+           fetch="https://github.com/TeamHorizon/" />
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+  <remote  name="ao"
+           fetch="https://github.com/AOKP/" />
+  
+  <!-- XenonHD Removals -->
+
+  <remove-project name="platform_device_asus_grouper" />
+  <remove-project name="device_asus_tilapia" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="android_device_htc_endeavoru" />
+  <remove-project name="android_device_htc_m7" />
+  <remove-project name="android_device_htc_m7-common" />
+  <remove-project name="android_device_htc_msm8660-common" />
+  <remove-project name="android_device_htc_msm8960-common" />
+  <remove-project name="TheBr0ken/device_htc_vigor" />
+  <remove-project name="android_device_motorola_mb886" />
+  <remove-project name="android_device_motorola_msm8960-common" />
+  <remove-project name="android_device_motorola_xt925" />
+  <remove-project name="android_device_motorola_xt926" />
+  <remove-project name="android_device_samsung_aries-common" />
+  <remove-project name="device_samsung_crespo" />
+  <remove-project name="android_device_samsung_d2-common" />
+  <remove-project name="AOKP/device_samsung_d2att" />
+  <remove-project name="AOKP/device_samsung_d2tmo" />
+  <remove-project name="AOKP/device_samsung_d2usc" />
+  <remove-project name="android_device_samsung_d2vzw" />
+  <remove-project name="platform_device_samsung_maguro" />
+  <remove-project name="device/samsung/manta" />
+  <remove-project name="AOKP/device_samsung_i9100" />
+  <remove-project name="AOKP/device_samsung_i9100g" />
+  <remove-project name="AOKP/device_samsung_i9300" />
+  <remove-project name="android_device_samsung_i9305" />
+  <remove-project name="android_device_samsung_n7000" />
+  <remove-project name="android_device_samsung_n7100" />
+  <remove-project name="android_device_samsung_omap4-common" />
+  <remove-project name="android_device_samsung_galaxysmtd" />
+  <remove-project name="AOKP/device_samsung_galaxys2-common" />
+  <remove-project name="android_device_samsung_msm8960-common" />
+  <remove-project name="android_device_samsung_smdk4412-common" />
+  <remove-project name="android_device_samsung_smdk4412-qcom-common" />
+  <remove-project name="android_device_samsung_t0lte" />
+  <remove-project name="android_device_samsung_t0ltetmo" />
+  <remove-project name="platform_device_samsung_toro" />
+  <remove-project name="android_device_samsung_toroplus" />
+  <remove-project name="platform_device_samsung_tuna" />
+  <remove-project name="android_device_samsung_qcom-common" />
+  <remove-project name="device/ti/panda" />
+  <remove-project name="android_vendor_asus" />
+  <remove-project name="proprietary_vendor_htc" />
+  <remove-project name="platform_vendor_samsung" />
+  <remove-project name="android_vendor_motorola_mb886" />
+  <remove-project name="android_vendor_motorola_xt925" />
+  <remove-project name="android_vendor_motorola_xt926" />
+
+  <!-- Kernel -->
+  
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="cm-10.1" />
+
+  </manifest>
