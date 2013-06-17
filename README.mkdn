@@ -2,7 +2,9 @@ Team Horizon & sylentprofet
 ===========
 
 mkdir xenon
+
 cd xenon
+
 mkdir .repo/local_manifests
 
 repo init -u git://github.com/sylentprofet/platform_manifest-xenon.git -b jb-mr1
