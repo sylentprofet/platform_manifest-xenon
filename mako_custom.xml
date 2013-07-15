@@ -19,8 +19,6 @@
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="android_device_htc_endeavoru" />
-  <remove-project name="android_device_htc_m7" />
-  <remove-project name="android_device_htc_m7-common" />
   <remove-project name="android_device_htc_msm8660-common" />
   <remove-project name="android_device_htc_msm8960-common" />
   <remove-project name="TheBr0ken/device_htc_vigor" />
