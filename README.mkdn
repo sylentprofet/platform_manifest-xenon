@@ -5,7 +5,7 @@ mkdir xenon
 
 cd xenon
 
-repo init -u git://github.com/sylentprofet/platform_manifest-xenon.git -b jb-mr1
+repo init -u git://github.com/TeamHorizon/platform_manifest.git -b jb-mr1
 
 mkdir .repo/local_manifests
 
