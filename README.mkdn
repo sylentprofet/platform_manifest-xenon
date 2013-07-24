@@ -1,4 +1,4 @@
-Team Horizon & sylentprofet
+Directions to build Xenon HD primarily for Nexus 4 *mako*
 ===========
 
 mkdir xenon
