@@ -1,4 +1,4 @@
-Directions to build Xenon HD primarily for Nexus 4 *mako*
+Directions to build Xenon HD for Nexus 4 *mako*
 ===========
 
 mkdir xenon
