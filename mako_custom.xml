@@ -26,6 +26,7 @@
   <remove-project name="android_device_motorola_msm8960-common" />
   <remove-project name="android_device_motorola_xt925" />
   <remove-project name="android_device_motorola_xt926" />
+  <remove-project name="android_device_oppo_find5" />
   <remove-project name="android_device_samsung_aries-common" />
   <remove-project name="device_samsung_crespo" />
   <remove-project name="android_device_samsung_d2-common" />
@@ -63,6 +64,6 @@
 
   <!-- Kernel -->
   
-  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="cm-10.1" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="cm-10.2" />
 
   </manifest>
