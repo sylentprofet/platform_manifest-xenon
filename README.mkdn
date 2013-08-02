@@ -5,11 +5,11 @@ mkdir xenon
 
 cd xenon
 
-repo init -u git://github.com/TeamHorizon/platform_manifest.git -b jb-mr1
+repo init -u git://github.com/TeamHorizon/platform_manifest.git -b jb-mr2
 
 mkdir .repo/local_manifests
 
-curl -L -o .repo/local_manifests/mako_only.xml -O -L https://raw.github.com/sylentprofet/platform_manifest-xenon/jb-mr1/mako_custom.xml
+curl -L -o .repo/local_manifests/mako_only.xml -O -L https://raw.github.com/sylentprofet/platform_manifest-xenon/jb-mr2/mako_custom.xml
 
 repo sync -j2
 
